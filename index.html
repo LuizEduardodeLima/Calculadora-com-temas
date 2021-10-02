@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Calculadora - LuizEduLima</title>
+
+  <!-- Icone usado no título da página -->
+  <link rel="sortcut icon" href="images/calculadora.ico" type="image/x-icon"/>
+
+  <!-- Link cdn fonts awesome -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+  <!-- Arquivo externo css 👍 -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+  <div class="desenvolvedor">
+    <p class="dev">&copy;&nbsp;&nbsp;Criado por Luiz Eduardo de Lima</p>
+  </div>
+
+  <div class="desenvolvedor">
+      <a href="#"><i class="fab fa-github-alt"></i>&nbsp;&nbsp;Acesse meu Github&nbsp;&nbsp;<i class="far fa-hand-point-left"></i></a>
+  </div>
+
+  <div class="box-main">
+      <div class="top-2">Calculadora</div>
+      <div class="top-3">Tema: &nbsp;&nbsp;&nbsp;<p title="Aperte para mudar o tema" class="theme-one" onmouseleave="change()">1</p>&nbsp;&nbsp;&nbsp;<p title="Aperte para mudar o tema" class="theme-two">2</p>&nbsp;&nbsp;&nbsp;<p title="Aperte para mudar o tema" class="theme-tree">3</p></div>
+  </div>
+
+  <div class="box-main">
+    <div class="screen">
+      <div class="mensage"></div>
+      <div class="values">0</div>
+    </div>
+  </div>
+
+  <div class="box">
+      <div class="button" onclick="button_click(7)">7</div>
+      <div class="button" onclick="button_click(8)">8</div>
+      <div class="button" onclick="button_click(9)">9</div>
+      <div class="button delete" onclick="deletar()">Delete</div>
+
+      <div class="button" onclick="button_click(4)">4</div>
+      <div class="button" onclick="button_click(5)">5</div>
+      <div class="button" onclick="button_click(6)">6</div>
+      <div class="button" onclick="operation('+')">+</div>
+
+      <div class="button" onclick="button_click(1)">1</div>
+      <div class="button" onclick="button_click(2)">2</div>
+      <div class="button" onclick="button_click(3)">3</div>
+      <div class="button" onclick="operation('-')">-</div>
+
+      <div class="button" onclick="button_click('.')">.</div>
+      <div class="button" onclick="button_click(0)">0</div>
+      <div class="button" onclick="operation('/')">/</div>
+      <div class="button" onclick="operation('*')">*</div>
+
+      <div class="button-reset" onclick="reset()">RESET</div>
+      <div class="button-result" onclick="igual()">=</div>
+  </div>
+
+  <!-- Cdn jquery -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- Arquivo de estilo externo -->
+  <script type="text/javascript" src="js/script.js"></script>
+</body> 
+</html>

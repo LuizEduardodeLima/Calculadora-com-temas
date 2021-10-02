@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+
+body{
+  background-color: hsl(222, 26%, 31%);
+  font-family: 'Gluten', cursive;
+  color: white;
+  font-size: 22px;
+}
+
+.desenvolvedor{
+	display: flex;
+	margin-top: 20px;
+}
+
+.dev{
+	width: 100%;
+	text-align: center;
+  color: #fff;
+  font-size: 28px;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+}
+
+a:hover{
+	text-decoration: underline;
+	font-size: 25px;
+	color: black;
+}
+
+.theme-one{
+	background-color: darkred;
+	padding: 3px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	color: darkred;
+	cursor: pointer;
+}
+
+.theme-two{
+	background-color: hsl(25, 98%, 40%);
+	padding: 3px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	color: hsl(25, 98%, 40%);
+	cursor: pointer;
+}
+
+.theme-tree{
+	background-color: hsl(176, 100%, 44%);
+	padding: 3px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	color: hsl(176, 100%, 44%);
+	cursor: pointer;
+}
+
+.box-main{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-left: 10%;
+  background-color: hsl(223, 31%, 20%);
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+
+.top{
+ 	flex-direction: row;
+}
+
+.top-1{
+  width: 100%;
+  text-align: right;
+  padding-top: 5px;
+  padding-right: 5px;
+  position: 1;
+}
+
+.top-2{
+	width: 50%;
+}
+
+.top-3{
+	width: 50%;
+	text-align: right;
+}
+
+.top-3 > p{
+	display: inline-block;
+}
+
+.screen{
+	width: 100%;
+	background-color: hsl(224, 36%, 15%);
+	height: 10%;
+	font-size: 35px;
+	padding: 25px;
+	margin-top: 10px;
+	text-align: right;
+}
+
+.mensage{
+	margin-bottom: 15px;
+}
+
+.button{
+	width: 24%;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 10px;
+	margin-left: 0.8%;
+	margin-top: 3.5%;
+	background-color: hsl(30, 25%, 89%);
+	color: hsl(224, 36%, 15%);
+}
+
+.button-reset{
+	width: 46%;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 10px;
+	margin: 2%;
+	background-color:	hsl(225, 21%, 49%);
+	color: white;
+}
+
+.button-result{
+	width: 46%;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 10px;
+	margin: 2%;
+	background-color: darkred;
+	color: white;
+}
+
+.delete{
+ 	background-color:	hsl(225, 21%, 49%);
+ 	color: white;
+}
